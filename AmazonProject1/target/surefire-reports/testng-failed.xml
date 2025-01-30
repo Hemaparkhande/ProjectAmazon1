@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Testingfirefox(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="amazon_project1.Project1_Amazon.TestCase13_ApplyCouponCodeWhileOrderingProduct">
+        <methods>
+          <include name="ApplyCouponCodeWhileOrderingProduct"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase13_ApplyCouponCodeWhileOrderingProduct -->
+      <class name="amazon_project1.Project1_Amazon.TestCase8_ProductSort">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="ProductSort"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase8_ProductSort -->
+      <class name="amazon_project1.Project1_Amazon.TestCase6_SearchwithFilters">
+        <methods>
+          <include name="SearchwithFilters"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase6_SearchwithFilters -->
+      <class name="amazon_project1.Project1_Amazon.TestCase3_Login_IncorrectCredentials">
+        <methods>
+          <include name="Login_IncorrectCredentials"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase3_Login_IncorrectCredentials -->
+      <class name="amazon_project1.Project1_Amazon.TestCase1_NewUser_Registration">
+        <methods>
+          <include name="NewUser_Registration"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase1_NewUser_Registration -->
+      <class name="amazon_project1.Project1_Amazon.TestCase11_Login_Cart_Payment_OrderReview">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="Login_Cart_Payment_OrderReview"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase11_Login_Cart_Payment_OrderReview -->
+      <class name="amazon_project1.Project1_Amazon.TestCase4_Login_EditProfileInformation">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="Login_EditProfileInformation"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase4_Login_EditProfileInformation -->
+      <class name="amazon_project1.Project1_Amazon.TestCase7_ProductDetails">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="ProductDetails"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase7_ProductDetails -->
+      <class name="amazon_project1.Project1_Amazon.TestCase14_Orders_Review">
+        <methods>
+          <include name="Orders_Review"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase14_Orders_Review -->
+      <class name="amazon_project1.Project1_Amazon.TestCase5_Search_Products_shoe">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="Search_Products_shoe"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase5_Search_Products_shoe -->
+      <class name="amazon_project1.Project1_Amazon.TestCase12_SelectEachPaymentmethod">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="SelectEachPaymentmethod"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase12_SelectEachPaymentmethod -->
+      <class name="amazon_project1.Project1_Amazon.TestCase2_Login_CorrectCredentials">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="Login_CorrectCredentials"/>
+        </methods>
+      </class> <!-- amazon_project1.Project1_Amazon.TestCase2_Login_CorrectCredentials -->
+    </classes>
+  </test> <!-- Testingfirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
