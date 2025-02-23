@@ -46,7 +46,7 @@ public class LoginPage
 	{
 //		wait.until(ExpectedConditions.elementToBeClickable(username));
 		Thread.sleep(4000);
-		FileInputStream f1 = new FileInputStream("/Users/hemag.gade/eclipse-workspace/Project1_Amazon/DDT/ExcelSheet.xlsx");
+		FileInputStream f1 = new FileInputStream("/Users/hemag.gade/eclipse-workspace/Project1_Amazon/DDT/ExcelSheetupdated.xlsx");
 		Workbook w1 = WorkbookFactory.create(f1);
 		String un = w1.getSheet("detailslogin").getRow(1).getCell(0).getStringCellValue();
 		username.sendKeys(un);
@@ -55,7 +55,7 @@ public class LoginPage
 	{//for wrong credentials login
 //		wait.until(ExpectedConditions.elementToBeClickable(username));
 		Thread.sleep(4000);
-		FileInputStream f1 = new FileInputStream("/Users/hemag.gade/eclipse-workspace/Project1_Amazon/DDT/ExcelSheet.xlsx");
+		FileInputStream f1 = new FileInputStream("/Users/hemag.gade/eclipse-workspace/Project1_Amazon/DDT/ExcelSheetupdated.xlsx");
 		Workbook w1 = WorkbookFactory.create(f1);
 		String un = w1.getSheet("detailslogin").getRow(1).getCell(0).getStringCellValue();
 		username.sendKeys(un);
@@ -69,7 +69,7 @@ public class LoginPage
 	public void password() throws EncryptedDocumentException, IOException
 	{
 		wait.until(ExpectedConditions.elementToBeClickable(pwd));
-		FileInputStream f1 = new FileInputStream("/Users/hemag.gade/eclipse-workspace/Project1_Amazon/DDT/ExcelSheet.xlsx");
+		FileInputStream f1 = new FileInputStream("/Users/hemag.gade/eclipse-workspace/Project1_Amazon/DDT/ExcelSheetupdated.xlsx");
 		Workbook w1 = WorkbookFactory.create(f1);
 		String pswd = w1.getSheet("detailslogin").getRow(1).getCell(1).getStringCellValue();
 		pwd.sendKeys(pswd);
